@@ -1,0 +1,439 @@
+[
+    {
+        "name": "Reconnaissance",
+        "describe": "侦查",
+        "color": "#3CB43C",
+        "itemColor": "#C8EAC8",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [
+                    {
+                        "name": "Scanning IP Blocks",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Vulnerability Scanning",
+                        "describe": ""
+                    }
+                ]
+            },
+            {
+                "id": "T1592",
+                "name": "Gather Victim Host Information",
+                "describe": "收集受害者主机信息",
+                "extend": [
+                    {
+                        "name": "Hardware",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Software",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Firmware",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Client Configurations",
+                        "describe": ""
+                    }
+                ]
+            },
+            {
+                "id": "T1589",
+                "name": "Gather Victim Identity Information",
+                "describe": "收集受害者身份信息",
+                "extend": [
+                    {
+                        "name": "Credentials",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Email Addresses",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Employee Names",
+                        "describe": ""
+                    }
+                ]
+            },
+            {
+                "id": "T1590",
+                "name": "Gather Victim Network Information",
+                "describe": "收集受害者网络信息",
+                "extend": [
+                    {
+                        "name": "Domain Properties",
+                        "describe": ""
+                    },
+                    {
+                        "name": "DNS",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Network Trust Dependencies",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Network Topology",
+                        "describe": ""
+                    },
+                    {
+                        "name": "IP Addresses",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Network Security Appliances",
+                        "describe": ""
+                    }
+                ]
+            },
+            {
+                "id": "T1591",
+                "name": "Gather Victim Org Information",
+                "describe": "收集受害者组织信息",
+                "extend": [
+                    {
+                        "name": "Business Relationships",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Determine Physical Locations",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Identify Business Tempo",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Identify Roles",
+                        "describe": ""
+                    }
+                ]
+            },
+            {
+                "id": "T1598",
+                "name": "Phishing for Information",
+                "describe": "网络钓鱼获取信息",
+                "extend": [
+                    {
+                        "name": "Spearphishing Service",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Spearphishing Attachment",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Spearphishing Link",
+                        "describe": ""
+                    }
+                ]
+            },
+            {
+                "id": "T1597",
+                "name": "Search Closed Sources",
+                "describe": "搜索关闭的源",
+                "extend": [
+                    {
+                        "name": "Threat Intel Vendors",
+                        "describe": ""
+                    },
+                    {
+                        "name": "Purchase Technical Data",
+                        "describe": ""
+                    }
+                ]
+            },
+            {
+                "id": "T1596",
+                "name": "Search Open Technical Databases",
+                "describe": "搜索开放的技术数据库",
+                "extend": []
+            },
+            {
+                "id": "T1593",
+                "name": "Search Open Websites/Domains",
+                "describe": "搜索公开网站/域名",
+                "extend": []
+            },
+            {
+                "id": "T1594",
+                "name": "Search Victim-Owned Websites",
+                "describe": "搜索受害者拥有的网站",
+                "extend": []
+            }
+        ]
+    },
+    {
+        "name": "Resource Development",
+        "describe": "资源开发",
+        "color": "#78BE32",
+        "itemColor": "#E6F4D6",
+        "item": [
+            {
+                "id": "T1583",
+                "name": "Acquire Infrastructure",
+                "describe": "建立基础设施",
+                "extend": []
+            },
+            {
+                "id": "T1586",
+                "name": "Compromise Accounts",
+                "describe": "受害账号",
+                "extend": []
+            },
+            {
+                "id": "T1584",
+                "name": "Compromise Infrastructure",
+                "describe": "受害基础设施",
+                "extend": []
+            },
+            {
+                "id": "T1587",
+                "name": "Develop Capabilities",
+                "describe": "开发能力",
+                "extend": []
+            },
+            {
+                "id": "T1585",
+                "name": "Establish Accounts",
+                "describe": "建立帐户",
+                "extend": []
+            },
+            {
+                "id": "T1588",
+                "name": "Obtain Capabilities",
+                "describe": "获得能力",
+                "extend": []
+            },
+            {
+                "id": "T1608",
+                "name": "Stage Capabilities",
+                "describe": "伪装能力",
+                "extend": []
+            }
+        ]
+    },
+    {
+        "name": "Initial Access",
+        "describe": "初始访问",
+        "color": "#CCDD22",
+        "itemColor": "#F6F9D3",
+        "item": [
+            {
+                "id": "T1189",
+                "name": "Drive-by Compromise",
+                "describe": "水坑攻击",
+                "extend": []
+            },
+            {
+                "id": "T1190",
+                "name": "Exploit Public-Facing Application",
+                "describe": "利用公开漏洞",
+                "extend": []
+            },
+            {
+                "id": "T1133",
+                "name": "External Remote Services",
+                "describe": "利用外部远程服务",
+                "extend": []
+            },
+            {
+                "id": "T1200",
+                "name": "Hardware Additions",
+                "describe": "利用硬件攻击",
+                "extend": []
+            },
+            {
+                "id": "T1566",
+                "name": "Phishing",
+                "describe": "网络钓鱼",
+                "extend": []
+            },
+            {
+                "id": "T1091",
+                "name": "Replication Through Removable Media",
+                "describe": "通过移动介质复制",
+                "extend": []
+            },
+            {
+                "id": "T1195",
+                "name": "Supply Chain Compromise",
+                "describe": "供应链渗透",
+                "extend": []
+            },
+            {
+                "id": "T1199",
+                "name": "Trusted Relationship",
+                "describe": "利用可靠关系",
+                "extend": []
+            },
+            {
+                "id": "T1078",
+                "name": "Valid Accounts",
+                "describe": "利用合法账号",
+                "extend": []
+            }
+        ]
+    },
+    {
+        "name": "Execution",
+        "describe": "执行",
+        "color": "#F4E300",
+        "itemColor": "#FFFFCD",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Persistence",
+        "describe": "持久化",
+        "color": "#FFCC00",
+        "itemColor": "#FFF5CD",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Privilege Escalation",
+        "describe": "权限提升",
+        "color": "#FF9900",
+        "itemColor": "#FFDEAF",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Defense Evasion",
+        "describe": "绕过防御",
+        "color": "#FF7632",
+        "itemColor": "#FFC3A5",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Credential Access",
+        "describe": "获取访问凭证",
+        "color": "#FF4422",
+        "itemColor": "#FFA899",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Discovery",
+        "describe": "发现",
+        "color": "#EE1166",
+        "itemColor": "#F096BE",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Lateral Movement",
+        "describe": "横向移动",
+        "color": "#B714E0",
+        "itemColor": "#E696FA",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Collection",
+        "describe": "数据收集",
+        "color": "#7E4ECF",
+        "itemColor": "#C8AAFF",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Command and Control",
+        "describe": "命令控制",
+        "color": "#4E5ECF",
+        "itemColor": "#AAB4FF",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Exfiltration",
+        "describe": "数据渗出",
+        "color": "#5A89FF",
+        "itemColor": "#96BEFF",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    },
+    {
+        "name": "Impact",
+        "describe": "影响",
+        "color": "#5AB0FF",
+        "itemColor": "#8CD7FF",
+        "item": [
+            {
+                "id": "T1595",
+                "name": "Active Scanning",
+                "describe": "主动扫描",
+                "extend": [ ]
+            }
+        ]
+    }
+]
